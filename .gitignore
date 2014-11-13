@@ -38,3 +38,6 @@ Icon
 .Spotlight-V100
 .Trashes
 
+# Ignore Videos
+videos/
+mobile/videos/
