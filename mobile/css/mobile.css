@@ -1,0 +1,378 @@
+/*********
+General Mobile Site CSS
+*********/
+body 
+{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #141414;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: 0;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1
+{
+	font-size: 35px; 
+	letter-spacing: 2px;
+	line-height: 40px;
+	margin: 10px auto 0 auto;
+	padding: 189px 0 0 0;
+	text-align: center;
+	font-weight: normal;
+	clear: both;
+	width: 100%;
+}
+
+h2
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: normal;
+	clear: both;
+	width: 600px;
+}
+
+p
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: normal;
+	clear: both;
+	width: 100%;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.big-text
+{
+	font-size: 60px;
+}
+
+.center
+{
+	text-align: center !important;
+}
+
+p.pic
+{
+	width: 600px;
+}
+
+#header-container
+{
+	background-image: url(../images/global/head-bg.jpg);
+	background-position: center top;
+	height: 90px;	
+	width: 100%;
+	overflow: hidden;
+}
+
+#header-wrapper
+{
+	background-image: url(../images/global/head.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#header-wrapper a#logo
+{
+	background-image: url(../images/global/logo.png);
+	background-position: center top;
+	display: block;
+	width: 588px;
+	height: 90px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+
+
+/*
+-------General & jQuery Coda-Slide
+*/
+#content-wrapper
+{
+	background-image: url(../images/global/content-bg-mobile.jpg);
+	background-position: center top;
+	height: 815px;
+	width: 100%;
+	overflow: hidden;
+	position: static;
+}
+
+#home, #videos, #about, #contact
+{
+	width: 100%;
+	display: block;
+	padding: 80px 0 0 0;
+	margin-top: -189px;
+}
+
+noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding: 15px }
+
+/* Most common stuff you'll need to change */
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider 
+	{ 
+		
+		width: 600px;
+		
+		height: 815px;
+		
+		margin: 0 auto; 
+		
+		overflow: hidden !important;
+	}
+	
+	
+	/* Preloader */
+	
+/*	.coda-slider p.loading { padding: 20px; text-align: center }
+*/
+/*
+-------Section Specific Content
+*/
+
+
+/* Home */
+#home h2
+{ 
+	font-size: 60px; 
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+#home p
+{
+width: 600px;
+}
+
+
+/* Videos */
+#videos table
+{
+	width: 70%;
+	border: 0;
+	background: #212121;
+	margin: 15px auto 0 auto;
+	clear: both;
+	border-collapse: collapse;
+	margin: 10px auto 0;
+	padding: 0;
+	text-align: left !important;
+}
+
+#videos table tr td
+{
+	height: 130px;
+	white-space: nowrap;
+}
+
+#videos table tr:nth-child(even) 
+{ 
+	background:#0A0A0A; 
+}
+
+#videos table tr td:nth-child(odd)
+{
+	width: 220px;
+}
+
+#videos table tr td:nth-child(even)
+{
+	padding: 0 20px 0 40px;
+}
+
+#videos table h2
+{
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size: 35px; 
+	margin: -10px 0 0 0;
+	text-align: left;
+	width: auto;
+}
+
+#videos table p
+{
+	text-align: left;
+	margin: 0;
+	width: auto;
+	font-size: 30px;
+	color: #bdb3b3;
+}
+
+#videos table tr td img
+{
+	margin: 10px -20px 0 10px;
+}
+
+/* About */
+
+#about h1
+{
+	font-size: 30px;
+	line-height: 40px;
+	text-align: left;
+}
+
+/* Contact */
+#contact h1
+{
+	font-size: 55px;
+	margin-top: -10px;
+	margin: 0 auto;
+}
+
+#contact h2
+{
+	font-size: 20px;
+	padding-bottom: 14px;
+	margin: 0 auto -12px auto;
+}
+
+
+/*
+-------Navigation
+*/
+
+#nav-header
+{
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+	
+#menu
+{
+	position: absolute;
+	z-index: 10;
+	height: 45px;
+	padding: 0 0 0 14px;
+	margin: 0;
+}
+
+#menu ul 
+{ 
+	display: block; 
+	overflow: hidden; 
+	clear: both;
+	margin: 0;
+	padding: 20px 0 0 0;
+	list-style-type: none;
+}
+
+#menu ul li
+{ 
+	width: 143px;
+	height: 45px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#menu ul li a 
+{ 
+	width: 143px;
+	height: 45px;
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-position: top;
+}
+
+#menu ul li.tabhome a 
+{ 
+	background-image: url(../images/nav/home-mobile.png);
+}
+
+#menu ul li.tabvideos a 
+{ 
+	background-image: url(../images/nav/videos-mobile.png);
+}
+
+#menu ul li.tababout a 
+{ 
+	background-image: url(../images/nav/about-mobile.png);
+}
+
+#menu ul li.tabcontact a  
+{ 
+	background-image: url(../images/nav/contact-mobile.png);
+}
+
+#menu ul li.tabhome a:hover, 
+#menu ul li.tabvideos a:hover, #menu ul li.tababout a:hover, #menu ul li.tabcontact a:hover, #menu ul li.tabhome a.active, #menu ul li.tabvideos a.active, #menu ul li.tababout a.active, #menu ul li.tabcontact a.active
+{ 
+	background-position: bottom;
+}
+
+		
+
+/*
+-------Foot
+*/
+#footer-container
+{
+	background-image: url(../images/global/foot-bg-mobile.jpg);
+	background-position: center top;
+	height: 119px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#footer-wrapper
+{
+	background-image: url(../images/global/foot-mobile.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 119px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #d0d0d0;
+}
+
+#footer-wrapper h2
+{
+	font-size: 20px;
+	padding-top: 55px;
+}
+
+#footer-wrapper p
+{
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+/*
+-------Hides All Non-Selected Sections
+*/
+div.inactive
+{
+	display: none !important;
+}

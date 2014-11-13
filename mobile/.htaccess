@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteOptions MaxRedirects=10
+
+# Home page redirects
+#RewriteRule index.php http://mattjennings.net/zzz/jennings-matt01/wp-content/themes/twentyeleven/images/proof/build/coda-slider-olav/\#home [R=301,NC]
+
+<FilesMatch "\.(js|css|html|htm|php|xml|swf|flv|ashx)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
