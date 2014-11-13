@@ -38,6 +38,30 @@ Icon
 .Spotlight-V100
 .Trashes
 
-# Ignore Videos
+# Videos and MediaelementJS
 videos/
 mobile/videos/
+*.swf
+*.fla
+*.flv
+*.mp4
+*.webm
+*.ogg
+*.ogv
+johndyer-mediaelement-b090320/
+mediaelement/
+
+# Fancybox
+fancybox/
+mobile/fancybox/
+
+# Images
+*.jpg
+*.png
+*.gif
+
+# Fonts
+*.eot
+*.ttf
+*.svg
+*.woff
