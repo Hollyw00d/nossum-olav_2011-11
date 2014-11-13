@@ -44,7 +44,7 @@ mobile/videos/
 *.swf
 *.fla
 *.flv
-*.mp4
+*.mp4 
 *.webm
 *.ogg
 *.ogv
