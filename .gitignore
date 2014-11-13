@@ -65,3 +65,8 @@ mobile/fancybox/
 *.ttf
 *.svg
 *.woff
+
+# EXCEPTIONS OR FILES TO NOT IGNORE
+# =========================
+!.gitignore
+
