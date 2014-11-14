@@ -59,10 +59,17 @@ p
 	line-height: 26px;
 }
 
-a:link, a:visited, a:hover, a:active
+a.underline:link, a.underline:visited, a.underline:hover, a.underline:active
 {
 	text-decoration: none;
 	color: #fff;
+  border-bottom: dotted #fff 2px;
+}
+
+.white-outline {
+  border: 2px solid #fff;
+  margin: 15px 0;
+  padding: 15px;
 }
 
 .big-text
@@ -73,6 +80,7 @@ a:link, a:visited, a:hover, a:active
 .center
 {
 	text-align: center !important;
+  margin: 0 auto !important;
 }
 
 p.pic
@@ -209,7 +217,6 @@ noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding
 	padding: 0;
 	text-align: left !important;
 }
-
 
 #videos-panel table tr td.video-caption
 {

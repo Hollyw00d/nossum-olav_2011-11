@@ -1,0 +1,13 @@
+/* Pop Up Videos CSS for "Videos" Page */
+
+body
+{
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+video {
+  padding: 0;
+  margin: 0;
+}
