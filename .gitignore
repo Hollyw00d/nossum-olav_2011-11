@@ -55,11 +55,6 @@ mediaelement/
 fancybox/
 mobile/fancybox/
 
-# Images
-*.jpg
-*.png
-*.gif
-
 # Fonts
 *.eot
 *.ttf
