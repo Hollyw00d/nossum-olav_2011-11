@@ -316,6 +316,7 @@ noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding
 	margin: 0;
 	padding: 0 0 0 20px;
 	list-style-type: none;
+  background: url(../images/global/logo-bottom.gif) no-repeat left top;
 }
 
 .coda-nav ul li
